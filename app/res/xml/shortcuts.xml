@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 长按桌面图标的快捷菜单：四个常用入口直达 JumpActivity（与小组件同一跳板），extra 值为 Platforms 入口 ID -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="pdd_pick"
+        android:enabled="true"
+        android:icon="@drawable/menu_pdd_pickup"
+        android:shortcutShortLabel="@string/sc_pdd_pick"
+        android:shortcutLongLabel="@string/sc_pdd_pick">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="lomoho.flashpick"
+            android:targetClass="com.lomoho.quickpick.JumpActivity">
+            <extra
+                android:name="target"
+                android:value="pdd_packages" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="pdd_code"
+        android:enabled="true"
+        android:icon="@drawable/menu_pdd_idcode"
+        android:shortcutShortLabel="@string/sc_pdd_code"
+        android:shortcutLongLabel="@string/sc_pdd_code">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="lomoho.flashpick"
+            android:targetClass="com.lomoho.quickpick.JumpActivity">
+            <extra
+                android:name="target"
+                android:value="pdd_code" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="cainiao_code"
+        android:enabled="true"
+        android:icon="@drawable/menu_cainiao_idcode"
+        android:shortcutShortLabel="@string/sc_cainiao_code"
+        android:shortcutLongLabel="@string/sc_cainiao_code">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="lomoho.flashpick"
+            android:targetClass="com.lomoho.quickpick.JumpActivity">
+            <extra
+                android:name="target"
+                android:value="cainiao_code" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="cainiao_pick"
+        android:enabled="true"
+        android:icon="@drawable/menu_cainiao_pickup"
+        android:shortcutShortLabel="@string/sc_cainiao_pick"
+        android:shortcutLongLabel="@string/sc_cainiao_pick">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="lomoho.flashpick"
+            android:targetClass="com.lomoho.quickpick.JumpActivity">
+            <extra
+                android:name="target"
+                android:value="cainiao_packages" />
+        </intent>
+    </shortcut>
+</shortcuts>

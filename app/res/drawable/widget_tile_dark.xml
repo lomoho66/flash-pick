@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1×1 组件伪装 app 图标：圆角方块底（深底，与 App 夜幕图标同色 #1A1815） -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="18dp" />
+    <solid android:color="#1A1815" />
+</shape>

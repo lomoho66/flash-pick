@@ -1,0 +1,5 @@
+*.apk
+*.idsig
+app/build/
+release.keystore
+keystore-password.txt

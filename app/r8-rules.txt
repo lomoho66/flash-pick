@@ -1,0 +1,15 @@
+# R8 规则：清单里按类名引用的组件必须保名保成员（Activity/Receiver/小组件 Provider），
+# 其余内部类（Ui/Prefs/Platforms/WidgetViews/WidgetJump/IconSwitch 等）任由压缩混淆。
+-keep class com.lomoho.quickpick.MainActivity { *; }
+-keep class com.lomoho.quickpick.SettingsActivity { *; }
+-keep class com.lomoho.quickpick.AboutActivity { *; }
+-keep class com.lomoho.quickpick.JumpActivity { *; }
+-keep class com.lomoho.quickpick.WidgetDuo { *; }
+-keep class com.lomoho.quickpick.WidgetPddPick { *; }
+-keep class com.lomoho.quickpick.WidgetPddCode { *; }
+-keep class com.lomoho.quickpick.WidgetCnPick { *; }
+-keep class com.lomoho.quickpick.WidgetCnCode { *; }
+-keep class com.lomoho.quickpick.PinCallbackReceiver { *; }
+-dontwarn **
+-repackageclasses ''
+-allowaccessmodification

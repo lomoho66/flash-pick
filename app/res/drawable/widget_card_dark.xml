@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 小组件深色卡底（跟随 App 外观设置）：深底实心（与 App 夜幕图标同色 #1A1815），22dp 圆角 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="22dp" />
+    <solid android:color="#1A1815" />
+</shape>

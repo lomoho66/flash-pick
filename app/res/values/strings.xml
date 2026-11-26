@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">闪取</string>
+    <string name="widget_pdd_pick_label">多多取件</string>
+    <string name="widget_pdd_pick_desc">拼多多取快递</string>
+    <string name="widget_pdd_code_label">多多身份码</string>
+    <string name="widget_pdd_code_desc">拼多多身份码</string>
+    <string name="widget_cn_pick_label">菜鸟取件</string>
+    <string name="widget_cn_pick_desc">菜鸟取件包裹</string>
+    <string name="widget_cn_code_label">菜鸟身份码</string>
+    <string name="widget_cn_code_desc">菜鸟身份码</string>
+    <string name="widget_duo_label">闪取</string>
+    <string name="widget_duo_desc">两个自选入口</string>
+    <string name="sc_pdd_pick">拼多多取件</string>
+    <string name="sc_pdd_code">拼多多身份码</string>
+    <string name="sc_cainiao_code">菜鸟身份码</string>
+    <string name="sc_cainiao_pick">菜鸟取件</string>
+</resources>

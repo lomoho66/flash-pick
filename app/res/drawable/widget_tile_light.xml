@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1×1 组件伪装 app 图标：圆角方块底（奶油底，与 App 图标同色 #F2EBDE） -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="18dp" />
+    <solid android:color="#F2EBDE" />
+</shape>

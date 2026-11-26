@@ -1,0 +1,385 @@
+# compiler: R8
+# compiler_version: 8.2.2-dev
+# min_api: 26
+# compiler_hash: facedf41bbd28b563d1e9e09c5f72d7c5ca598d5
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 5883102
+# pg_map_hash: SHA-256 5883102f74d596f3604385474b1f6ecf9947b522ec2cb88e566c91722561b488
+com.lomoho.quickpick.AboutActivity -> com.lomoho.quickpick.AboutActivity:
+    0:3:void $r8$lambda$0Vd_vRjYrQUCG2FfHiln_n1H7IE(com.lomoho.quickpick.AboutActivity):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$5QeSeAc9m9VwbKjmHgaCCX9JyWE(com.lomoho.quickpick.AboutActivity):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$N2am_i_rueVpLv2vIIw9tcb6Wm8(com.lomoho.quickpick.AboutActivity):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$TnQCCwx0W6mJY9PJiw9_E-3G9N8(com.lomoho.quickpick.AboutActivity,android.view.View):0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$UW6doKGb3FCFaJiGGdiDAFkMJ9g(java.lang.Runnable,android.view.View):0:0 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$WFiUZSmgKcLxH6gH7BxpGshJUNQ(com.lomoho.quickpick.AboutActivity):0:0 -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$_qZJquo4JcO6FfB8-s7S2CZ6OuA(com.lomoho.quickpick.AboutActivity):0:0 -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$awDuBLHn87GwL0C0D2CGLYcdLw0(java.lang.Runnable,android.view.View):0:0 -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    368:439:android.widget.LinearLayout com.lomoho.quickpick.Ui.infoRow(android.content.Context,java.lang.String,java.lang.String):0:0 -> onCreate
+    368:439:void onCreate(android.os.Bundle):0 -> onCreate
+    440:691:void onCreate(android.os.Bundle):0:0 -> onCreate
+    692:714:android.widget.ScrollView com.lomoho.quickpick.Ui.scrollWrap(android.content.Context,android.view.View):0:0 -> onCreate
+    692:714:void onCreate(android.os.Bundle):0 -> onCreate
+    715:718:void onCreate(android.os.Bundle):0:0 -> onCreate
+com.lomoho.quickpick.AboutActivity$$ExternalSyntheticLambda0 -> a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$0.$r8$classId -> a
+    com.lomoho.quickpick.AboutActivity com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$0.f$0 -> b
+    0:7:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$0.<init>(com.lomoho.quickpick.AboutActivity):0:0 -> <init>
+    0:7:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$0.$r8$init$synthetic(com.lomoho.quickpick.AboutActivity,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:27:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$0.run$bridge():0:0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.AboutActivity$$ExternalSyntheticLambda1 -> b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$5.$r8$classId -> a
+    com.lomoho.quickpick.AboutActivity com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$5.f$0 -> b
+    0:7:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$5.<init>(com.lomoho.quickpick.AboutActivity):0:0 -> <init>
+    0:7:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$5.$r8$init$synthetic(android.app.Activity,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    16:19:void com.lomoho.quickpick.Ui.lambda$page$0(android.app.Activity,android.view.View):0:0 -> onClick
+    16:19:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$055a3d5bec00c53ad3b49046fe2dc154e79917f99b058ce7b0ea3fc851b33a52$5.onClick$bridge(android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.AboutActivity$$ExternalSyntheticLambda2 -> c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$2cc7c079acdd33e5af611808dd292c46747eb0a4fdd9a9fed6cd089e2adb8852$0.$r8$classId -> a
+    java.lang.Runnable com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$2cc7c079acdd33e5af611808dd292c46747eb0a4fdd9a9fed6cd089e2adb8852$0.f$0 -> b
+    0:7:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$2cc7c079acdd33e5af611808dd292c46747eb0a4fdd9a9fed6cd089e2adb8852$0.<init>(java.lang.Runnable):0:0 -> <init>
+    0:7:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$2cc7c079acdd33e5af611808dd292c46747eb0a4fdd9a9fed6cd089e2adb8852$0.$r8$init$synthetic(java.lang.Runnable,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:23:void com.lomoho.quickpick.AboutActivity$$InternalSyntheticLambda$1$2cc7c079acdd33e5af611808dd292c46747eb0a4fdd9a9fed6cd089e2adb8852$0.onClick$bridge(android.view.View):0:0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.BaseSingleWidget -> d:
+    java.lang.String entryId() -> entryId
+    0:20:void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]):0:0 -> onUpdate
+com.lomoho.quickpick.JumpActivity -> com.lomoho.quickpick.JumpActivity:
+    0:3:void $r8$lambda$AUeI7CZiHqfRJUNkL8OVBJRUjiw(com.lomoho.quickpick.JumpActivity,android.widget.FrameLayout,java.lang.String):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.JumpActivity$$ExternalSyntheticLambda0 -> e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.lomoho.quickpick.JumpActivity com.lomoho.quickpick.JumpActivity$$InternalSyntheticLambda$1$b6102895af3c38be0977eee71adb90ca71f49fb7c80719d22c00c76c4bde9563$0.f$0 -> a
+    android.widget.FrameLayout com.lomoho.quickpick.JumpActivity$$InternalSyntheticLambda$1$b6102895af3c38be0977eee71adb90ca71f49fb7c80719d22c00c76c4bde9563$0.f$1 -> b
+    java.lang.String com.lomoho.quickpick.JumpActivity$$InternalSyntheticLambda$1$b6102895af3c38be0977eee71adb90ca71f49fb7c80719d22c00c76c4bde9563$0.f$2 -> c
+    0:9:void com.lomoho.quickpick.JumpActivity$$InternalSyntheticLambda$1$b6102895af3c38be0977eee71adb90ca71f49fb7c80719d22c00c76c4bde9563$0.<init>(com.lomoho.quickpick.JumpActivity,android.widget.FrameLayout,java.lang.String):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:9:void com.lomoho.quickpick.JumpActivity$$InternalSyntheticLambda$1$b6102895af3c38be0977eee71adb90ca71f49fb7c80719d22c00c76c4bde9563$0.run():0:0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.MainActivity -> com.lomoho.quickpick.MainActivity:
+    0:4:boolean $r8$lambda$L-I7dpm0_0aHa8doFZFnke7bU7E(android.view.View,android.view.MotionEvent):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    31:39:void com.lomoho.quickpick.Ui.confirm(android.app.Activity,java.lang.String,java.lang.String,java.lang.String,java.lang.Runnable):0:0 -> askPinWidget
+    31:39:void askPinWidget(com.lomoho.quickpick.Platforms$Entry):0 -> askPinWidget
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;)V"}
+    40:66:android.widget.TextView com.lomoho.quickpick.Ui.dialogTitle(android.app.Activity,java.lang.String):0:0 -> askPinWidget
+    40:66:void com.lomoho.quickpick.Ui.confirm(android.app.Activity,java.lang.String,java.lang.String,java.lang.String,java.lang.Runnable):0 -> askPinWidget
+    40:66:void askPinWidget(com.lomoho.quickpick.Platforms$Entry):0 -> askPinWidget
+    67:179:void com.lomoho.quickpick.Ui.confirm(android.app.Activity,java.lang.String,java.lang.String,java.lang.String,java.lang.Runnable):0:0 -> askPinWidget
+    67:179:void askPinWidget(com.lomoho.quickpick.Platforms$Entry):0 -> askPinWidget
+    0:4:boolean $r8$lambda$Z275eaoAS8CO6dv8BOtspyGJhks(com.lomoho.quickpick.MainActivity,com.lomoho.quickpick.Platforms$Entry,android.view.View):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/lomoho/quickpick/MainActivity;Lm;Landroid/view/View;)Z"}
+    0:3:void $r8$lambda$dlYU57W05m7FqZIl-Q1SkntlmCQ(com.lomoho.quickpick.MainActivity,android.view.View):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$e5pkVI37HJb4fZf0FvVbpohkvBs(com.lomoho.quickpick.MainActivity,com.lomoho.quickpick.Platforms$Entry):0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/lomoho/quickpick/MainActivity;Lm;)V"}
+    0:3:void $r8$lambda$eaWdafFt2v-l1jAQ3auMsJVWGAE(com.lomoho.quickpick.MainActivity,android.view.View):0:0 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    6:11:boolean com.lomoho.quickpick.Platforms.installed(android.content.Context,com.lomoho.quickpick.Platforms$Entry):0:0 -> entryTile
+    6:11:android.widget.LinearLayout entryTile(com.lomoho.quickpick.Platforms$Entry):0 -> entryTile
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;)Landroid/widget/LinearLayout;"}
+    12:25:boolean com.lomoho.quickpick.Platforms.isInstalled(android.content.Context,java.lang.String):0:0 -> entryTile
+    12:25:boolean com.lomoho.quickpick.Platforms.installed(android.content.Context,com.lomoho.quickpick.Platforms$Entry):0 -> entryTile
+    12:25:android.widget.LinearLayout entryTile(com.lomoho.quickpick.Platforms$Entry):0 -> entryTile
+    26:278:android.widget.LinearLayout entryTile(com.lomoho.quickpick.Platforms$Entry):0:0 -> entryTile
+    0:3:void $r8$lambda$fb5QNrFD8BquGegqEMBqwHYyqjo(com.lomoho.quickpick.MainActivity,android.view.View):0:0 -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$gyBCoD1sUuIzS6Y1RTm4LXNTKHM(com.lomoho.quickpick.MainActivity,com.lomoho.quickpick.Platforms$Entry,android.view.View):0:0 -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/lomoho/quickpick/MainActivity;Lm;Landroid/view/View;)V"}
+    0:3:void lambda$askPinWidget$5(com.lomoho.quickpick.Platforms$Entry):0:0 -> lambda$askPinWidget$5
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;)V"}
+    0:9:void lambda$entryTile$3(com.lomoho.quickpick.Platforms$Entry,android.view.View):0:0 -> lambda$entryTile$3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;Landroid/view/View;)V"}
+    0:8:boolean lambda$entryTile$4(com.lomoho.quickpick.Platforms$Entry,android.view.View):0:0 -> lambda$entryTile$4
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;Landroid/view/View;)Z"}
+    7:14:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> lambda$onCreate$2
+    7:14:java.lang.String com.lomoho.quickpick.Prefs.themeMode(android.content.Context):0 -> lambda$onCreate$2
+    7:14:void lambda$onCreate$2(android.view.View):0 -> lambda$onCreate$2
+    15:18:java.lang.String com.lomoho.quickpick.Prefs.themeMode(android.content.Context):0:0 -> lambda$onCreate$2
+    15:18:void lambda$onCreate$2(android.view.View):0 -> lambda$onCreate$2
+    19:37:void lambda$onCreate$2(android.view.View):0:0 -> lambda$onCreate$2
+    38:41:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> lambda$onCreate$2
+    38:41:void com.lomoho.quickpick.Prefs.setThemeMode(android.content.Context,java.lang.String):0 -> lambda$onCreate$2
+    38:41:void lambda$onCreate$2(android.view.View):0 -> lambda$onCreate$2
+    42:52:void com.lomoho.quickpick.Prefs.setThemeMode(android.content.Context,java.lang.String):0:0 -> lambda$onCreate$2
+    42:52:void lambda$onCreate$2(android.view.View):0 -> lambda$onCreate$2
+    53:83:void lambda$onCreate$2(android.view.View):0:0 -> lambda$onCreate$2
+    40:67:int com.lomoho.quickpick.Ui.statusBarHeight(android.content.Context):0:0 -> onCreate
+    40:67:void onCreate(android.os.Bundle):0 -> onCreate
+    68:124:void onCreate(android.os.Bundle):0:0 -> onCreate
+    125:147:int com.lomoho.quickpick.Ui.neutralFill(android.content.Context):0:0 -> onCreate
+    125:147:void onCreate(android.os.Bundle):0 -> onCreate
+    148:298:void onCreate(android.os.Bundle):0:0 -> onCreate
+    299:306:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> onCreate
+    299:306:java.lang.String com.lomoho.quickpick.Prefs.themeMode(android.content.Context):0 -> onCreate
+    299:306:void onCreate(android.os.Bundle):0 -> onCreate
+    307:310:java.lang.String com.lomoho.quickpick.Prefs.themeMode(android.content.Context):0:0 -> onCreate
+    307:310:void onCreate(android.os.Bundle):0 -> onCreate
+    311:734:void onCreate(android.os.Bundle):0:0 -> onCreate
+    0:119:void pinWidget(com.lomoho.quickpick.Platforms$Entry):0:0 -> pinWidget
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;)V"}
+    0:61:java.lang.String widgetLabel(com.lomoho.quickpick.Platforms$Entry):0:0 -> widgetLabel
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;)Ljava/lang/String;"}
+com.lomoho.quickpick.MainActivity$$ExternalSyntheticLambda0 -> f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$2ca8980d11ef0292847c07e5c1eb8a93d859f61d8fec7fb9cff2a7eb411e12ba$0.$r8$classId -> a
+    com.lomoho.quickpick.MainActivity com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$2ca8980d11ef0292847c07e5c1eb8a93d859f61d8fec7fb9cff2a7eb411e12ba$0.f$0 -> b
+    com.lomoho.quickpick.Platforms$Entry com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$2ca8980d11ef0292847c07e5c1eb8a93d859f61d8fec7fb9cff2a7eb411e12ba$0.f$1 -> c
+    0:9:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$2ca8980d11ef0292847c07e5c1eb8a93d859f61d8fec7fb9cff2a7eb411e12ba$0.<init>(com.lomoho.quickpick.MainActivity,com.lomoho.quickpick.Platforms$Entry):0:0 -> <init>
+    0:9:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$2ca8980d11ef0292847c07e5c1eb8a93d859f61d8fec7fb9cff2a7eb411e12ba$0.$r8$init$synthetic(android.app.Activity,java.lang.Object,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:25:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$2ca8980d11ef0292847c07e5c1eb8a93d859f61d8fec7fb9cff2a7eb411e12ba$0.run$bridge():0:0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.MainActivity$$ExternalSyntheticLambda1 -> g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$0.$r8$classId -> a
+    com.lomoho.quickpick.MainActivity com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$0.f$0 -> b
+    com.lomoho.quickpick.Platforms$Entry com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$0.f$1 -> c
+    0:9:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$0.<init>(com.lomoho.quickpick.MainActivity,com.lomoho.quickpick.Platforms$Entry):0:0 -> <init>
+    0:9:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$0.$r8$init$synthetic(java.lang.Object,java.lang.Object,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    24:31:void com.lomoho.quickpick.Ui.lambda$confirm$2(android.app.Dialog,java.lang.Runnable,android.view.View):0:0 -> onClick
+    24:31:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$0.onClick$bridge(android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.MainActivity$$ExternalSyntheticLambda2 -> h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.lomoho.quickpick.MainActivity com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$1.f$0 -> a
+    com.lomoho.quickpick.Platforms$Entry com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$1.f$1 -> b
+    0:7:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$1.<init>(com.lomoho.quickpick.MainActivity,com.lomoho.quickpick.Platforms$Entry):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/lomoho/quickpick/MainActivity;Lm;)V"}
+    0:8:boolean com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$73446dd38422d4011b6c4774cbc0b450105a0481c1b8f32ea37a41900d99593c$1.onLongClick(android.view.View):0:0 -> onLongClick
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.MainActivity$$ExternalSyntheticLambda3 -> i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$9d1019f7e0965b38338306449a822138a14a717bbd96366d109ba9a0c47c8b42$0.$r8$classId -> a
+    com.lomoho.quickpick.MainActivity com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$9d1019f7e0965b38338306449a822138a14a717bbd96366d109ba9a0c47c8b42$0.f$0 -> b
+    0:7:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$9d1019f7e0965b38338306449a822138a14a717bbd96366d109ba9a0c47c8b42$0.<init>(com.lomoho.quickpick.MainActivity):0:0 -> <init>
+    0:7:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$9d1019f7e0965b38338306449a822138a14a717bbd96366d109ba9a0c47c8b42$0.$r8$init$synthetic(com.lomoho.quickpick.MainActivity,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:19:void com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$9d1019f7e0965b38338306449a822138a14a717bbd96366d109ba9a0c47c8b42$0.onClick$bridge(android.view.View):0:0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.MainActivity$$ExternalSyntheticLambda4 -> j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    0:4:boolean com.lomoho.quickpick.MainActivity$$InternalSyntheticLambda$1$ec55b117dc3b48920e82dce890260059fae572ca1ce0bee87eea3766dd98a10b$0.onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.MainActivity$1 -> l:
+    android.content.Context val$appCtx -> a
+    0:5:void <init>(com.lomoho.quickpick.MainActivity,android.content.Context):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/Context;)V"}
+    0:0:void onActivityCreated(android.app.Activity,android.os.Bundle) -> onActivityCreated
+    0:0:void onActivityDestroyed(android.app.Activity) -> onActivityDestroyed
+    0:0:void onActivityPaused(android.app.Activity) -> onActivityPaused
+    0:0:void onActivityResumed(android.app.Activity) -> onActivityResumed
+    0:0:void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle) -> onActivitySaveInstanceState
+    0:24:void onActivityStarted(android.app.Activity):0:0 -> onActivityStarted
+    0:66:void onActivityStopped(android.app.Activity):0:0 -> onActivityStopped
+com.lomoho.quickpick.MainActivity$1$$ExternalSyntheticLambda0 -> k:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.$r8$classId -> a
+    android.content.Context com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.f$0 -> b
+    0:7:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.<init>(android.content.Context):0:0 -> <init>
+    0:7:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.$r8$init$synthetic(android.content.Context,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    10:18:void com.lomoho.quickpick.MainActivity$1.lambda$onActivityStopped$0(android.content.Context):0:0 -> run
+    10:18:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.run$bridge():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+    19:33:void com.lomoho.quickpick.Prefs.applyIconForTheme(android.content.Context):0:0 -> run
+    19:33:void com.lomoho.quickpick.MainActivity$1.lambda$onActivityStopped$0(android.content.Context):0 -> run
+    19:33:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.run$bridge():0 -> run
+    34:41:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> run
+    34:41:void com.lomoho.quickpick.Prefs.applyIconForTheme(android.content.Context):0 -> run
+    34:41:void com.lomoho.quickpick.MainActivity$1.lambda$onActivityStopped$0(android.content.Context):0 -> run
+    34:41:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.run$bridge():0 -> run
+    42:52:void com.lomoho.quickpick.Prefs.applyIconForTheme(android.content.Context):0:0 -> run
+    42:52:void com.lomoho.quickpick.MainActivity$1.lambda$onActivityStopped$0(android.content.Context):0 -> run
+    42:52:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.run$bridge():0 -> run
+    53:56:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> run
+    53:56:void com.lomoho.quickpick.Prefs.applyIconForTheme(android.content.Context):0 -> run
+    53:56:void com.lomoho.quickpick.MainActivity$1.lambda$onActivityStopped$0(android.content.Context):0 -> run
+    53:56:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.run$bridge():0 -> run
+    57:141:void com.lomoho.quickpick.Prefs.applyIconForTheme(android.content.Context):0:0 -> run
+    57:141:void com.lomoho.quickpick.MainActivity$1.lambda$onActivityStopped$0(android.content.Context):0 -> run
+    57:141:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.run$bridge():0 -> run
+    142:147:void com.lomoho.quickpick.MainActivity$1$$InternalSyntheticLambda$1$feb345236c03267ff0de2edeac406b3399a478ab731bc7297fb2ea74694158a3$0.run$bridge():0:0 -> run
+com.lomoho.quickpick.Platforms -> o:
+    java.util.List ALL -> a
+    0:197:void <clinit>():0:0 -> <clinit>
+    0:62:com.lomoho.quickpick.Platforms$Entry find(java.lang.String):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Lm;"}
+    0:21:boolean launchApp(android.content.Context,java.lang.String):0:0 -> b
+    21:35:boolean com.lomoho.quickpick.Platforms.isInstalled(android.content.Context,java.lang.String):0:0 -> c
+    21:35:void open(android.content.Context,java.lang.String):0 -> c
+    36:205:void open(android.content.Context,java.lang.String):0:0 -> c
+    0:27:boolean tryView(android.content.Context,java.lang.String,java.lang.String):0:0 -> d
+com.lomoho.quickpick.Platforms$Entry -> m:
+    java.lang.String id -> a
+    java.lang.String platformName -> b
+    java.lang.String label -> c
+    java.lang.String cardDesc -> d
+    java.lang.String shortLabel -> e
+    boolean primary -> f
+    java.lang.String[] pkgs -> g
+    java.lang.String[] nativeUris -> h
+    java.lang.String[] uris -> i
+    java.lang.String web -> j
+    0:23:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String[]):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V"}
+com.lomoho.quickpick.Platforms$Platform -> n:
+    java.lang.String name -> a
+    java.util.List entries -> b
+    0:11:void <init>(java.lang.String,java.lang.String,com.lomoho.quickpick.Platforms$Entry[]):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;[Lm;)V"}
+com.lomoho.quickpick.Prefs -> p:
+    0:58:android.widget.RemoteViews com.lomoho.quickpick.WidgetViews.duo(android.content.Context,int):0:0 -> a
+    27:35:java.lang.String com.lomoho.quickpick.WidgetViews.duoLabel(com.lomoho.quickpick.Platforms$Entry):0:0 -> b
+    27:35:void com.lomoho.quickpick.WidgetViews.fillHalf(android.content.Context,android.widget.RemoteViews,int,com.lomoho.quickpick.Platforms$Entry,int,int,int):0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/Context;Landroid/widget/RemoteViews;ILm;III)V"}
+    36:58:void com.lomoho.quickpick.WidgetViews.fillHalf(android.content.Context,android.widget.RemoteViews,int,com.lomoho.quickpick.Platforms$Entry,int,int,int):0:0 -> b
+    0:87:int com.lomoho.quickpick.WidgetViews.menuIcon(java.lang.String,boolean):0:0 -> c
+    0:56:android.app.PendingIntent com.lomoho.quickpick.WidgetJump.pending(android.content.Context,int,java.lang.String):0:0 -> d
+    0:59:void com.lomoho.quickpick.WidgetViews.refreshAll(android.content.Context):0:0 -> e
+    0:25:void com.lomoho.quickpick.WidgetViews.refreshSingles(android.content.Context,android.appwidget.AppWidgetManager,java.lang.Class,java.lang.String):0:0 -> f
+    16:77:int com.lomoho.quickpick.WidgetViews.layoutFor(java.lang.String):0:0 -> g
+    16:77:android.widget.RemoteViews com.lomoho.quickpick.WidgetViews.single(android.content.Context,int,java.lang.String):0 -> g
+    78:129:android.widget.RemoteViews com.lomoho.quickpick.WidgetViews.single(android.content.Context,int,java.lang.String):0:0 -> g
+    16:19:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> h
+    16:19:java.lang.String slotEntry(android.content.Context,java.lang.String):0 -> h
+    20:38:java.lang.String slotEntry(android.content.Context,java.lang.String):0:0 -> h
+com.lomoho.quickpick.SettingsActivity -> com.lomoho.quickpick.SettingsActivity:
+    0:3:void $r8$lambda$Hy0YRFvSmM20srVOLK1g8g4qKz4(java.lang.Runnable,android.view.View):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$IpBsKKc1vpmaT0K3CqTMweX2GHk(com.lomoho.quickpick.SettingsActivity,java.lang.String):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$RIJyRS_l5BAzhfuoTLlujs67FAk(com.lomoho.quickpick.SettingsActivity):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$orYChuNdgs0ETHx5jpwV3Wiudoc(java.lang.Runnable,android.view.View):0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$wpd5sWVWvmSrAuFruz3hfqBObpU(com.lomoho.quickpick.SettingsActivity,java.lang.String,java.util.List,int):0:0 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    5:23:int com.lomoho.quickpick.Ui.separator(android.content.Context):0:0 -> hairline
+    5:23:android.view.View hairline():0 -> hairline
+    24:55:android.view.View hairline():0:0 -> hairline
+    11:14:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> lambda$pickEntry$3
+    11:14:void com.lomoho.quickpick.Prefs.setSlotEntry(android.content.Context,java.lang.String,java.lang.String):0 -> lambda$pickEntry$3
+    11:14:void lambda$pickEntry$3(java.lang.String,java.util.List,int):0 -> lambda$pickEntry$3
+    15:39:void com.lomoho.quickpick.Prefs.setSlotEntry(android.content.Context,java.lang.String,java.lang.String):0:0 -> lambda$pickEntry$3
+    15:39:void lambda$pickEntry$3(java.lang.String,java.util.List,int):0 -> lambda$pickEntry$3
+    40:46:void lambda$pickEntry$3(java.lang.String,java.util.List,int):0:0 -> lambda$pickEntry$3
+    64:86:int com.lomoho.quickpick.Ui.chipTint(android.content.Context):0:0 -> menuRow
+    64:86:android.widget.LinearLayout menuRow(int,java.lang.String,java.lang.String,java.lang.Runnable):0 -> menuRow
+    87:251:android.widget.LinearLayout menuRow(int,java.lang.String,java.lang.String,java.lang.Runnable):0:0 -> menuRow
+    224:248:android.widget.ScrollView com.lomoho.quickpick.Ui.scrollWrap(android.content.Context,android.view.View):0:0 -> onCreate
+    224:248:void onCreate(android.os.Bundle):0 -> onCreate
+    249:252:void onCreate(android.os.Bundle):0:0 -> onCreate
+    4:32:java.util.List com.lomoho.quickpick.Platforms.allEntries():0:0 -> pickEntry
+    4:32:void pickEntry(java.lang.String):0 -> pickEntry
+    33:88:void pickEntry(java.lang.String):0:0 -> pickEntry
+    89:97:void com.lomoho.quickpick.Ui.singleChoice(android.app.Activity,java.lang.String,java.lang.String[],int,java.util.function.IntConsumer):0:0 -> pickEntry
+    89:97:void pickEntry(java.lang.String):0 -> pickEntry
+    98:124:android.widget.TextView com.lomoho.quickpick.Ui.dialogTitle(android.app.Activity,java.lang.String):0:0 -> pickEntry
+    98:124:void com.lomoho.quickpick.Ui.singleChoice(android.app.Activity,java.lang.String,java.lang.String[],int,java.util.function.IntConsumer):0 -> pickEntry
+    98:124:void pickEntry(java.lang.String):0 -> pickEntry
+    125:403:void com.lomoho.quickpick.Ui.singleChoice(android.app.Activity,java.lang.String,java.lang.String[],int,java.util.function.IntConsumer):0:0 -> pickEntry
+    125:403:void pickEntry(java.lang.String):0 -> pickEntry
+    62:70:java.lang.String com.lomoho.quickpick.WidgetViews.duoLabel(com.lomoho.quickpick.Platforms$Entry):0:0 -> previewRow
+    62:70:android.widget.LinearLayout previewRow(com.lomoho.quickpick.Platforms$Entry):0 -> previewRow
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lm;)Landroid/widget/LinearLayout;"}
+    71:108:android.widget.LinearLayout previewRow(com.lomoho.quickpick.Platforms$Entry):0:0 -> previewRow
+    1:1:android.widget.LinearLayout settingRow(android.view.View,java.lang.String,java.lang.String):0:0 -> settingRow
+    2:2:android.widget.LinearLayout settingRow(android.view.View,java.lang.String,java.lang.String,java.lang.Runnable):0:0 -> settingRow
+com.lomoho.quickpick.SettingsActivity$$ExternalSyntheticLambda0 -> q:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.lomoho.quickpick.SettingsActivity com.lomoho.quickpick.SettingsActivity$$InternalSyntheticLambda$1$d9e2b3bb7a8ae52403834ce14ea05b4591cb8f6ea5b1c4120bb6fb0156d7c099$0.f$0 -> a
+    java.lang.String com.lomoho.quickpick.SettingsActivity$$InternalSyntheticLambda$1$d9e2b3bb7a8ae52403834ce14ea05b4591cb8f6ea5b1c4120bb6fb0156d7c099$0.f$1 -> b
+    java.util.List com.lomoho.quickpick.SettingsActivity$$InternalSyntheticLambda$1$d9e2b3bb7a8ae52403834ce14ea05b4591cb8f6ea5b1c4120bb6fb0156d7c099$0.f$2 -> c
+    0:9:void com.lomoho.quickpick.SettingsActivity$$InternalSyntheticLambda$1$d9e2b3bb7a8ae52403834ce14ea05b4591cb8f6ea5b1c4120bb6fb0156d7c099$0.<init>(com.lomoho.quickpick.SettingsActivity,java.lang.String,java.util.List):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/lomoho/quickpick/SettingsActivity;Ljava/lang/String;Ljava/util/ArrayList;)V"}
+    0:9:void com.lomoho.quickpick.SettingsActivity$$InternalSyntheticLambda$1$d9e2b3bb7a8ae52403834ce14ea05b4591cb8f6ea5b1c4120bb6fb0156d7c099$0.accept(int):0:0 -> accept
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lomoho.quickpick.Ui -> t:
+    int RED -> a
+    int GOLD -> b
+    int BG -> c
+    0:48:void <clinit>():0:0 -> <clinit>
+    0:102:android.app.Dialog baseDialog(android.app.Activity,android.widget.LinearLayout):0:0 -> a
+    0:20:int bg(android.content.Context):0:0 -> b
+    0:16:int card(android.content.Context):0:0 -> c
+    0:16:int dark(android.content.Context):0:0 -> d
+    0:57:android.widget.TextView dialogButton(android.app.Activity,java.lang.String,boolean):0:0 -> e
+    5:23:int com.lomoho.quickpick.Ui.separator(android.content.Context):0:0 -> f
+    5:23:android.view.View divider(android.content.Context):0 -> f
+    24:61:android.view.View divider(android.content.Context):0:0 -> f
+    0:16:int dp(android.content.Context,int):0:0 -> g
+    0:38:void edgeToEdge(android.app.Activity):0:0 -> h
+    0:8:int grey(android.content.Context):0:0 -> i
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()I"}
+    0:7:android.widget.LinearLayout$LayoutParams matchWrap():0:0 -> j
+    3:10:android.content.SharedPreferences com.lomoho.quickpick.Prefs.sp(android.content.Context):0:0 -> k
+    3:10:java.lang.String com.lomoho.quickpick.Prefs.themeMode(android.content.Context):0 -> k
+    3:10:boolean night(android.content.Context):0 -> k
+    11:16:java.lang.String com.lomoho.quickpick.Prefs.themeMode(android.content.Context):0:0 -> k
+    11:16:boolean night(android.content.Context):0 -> k
+    17:51:boolean night(android.content.Context):0:0 -> k
+    24:51:int com.lomoho.quickpick.Ui.statusBarHeight(android.content.Context):0:0 -> l
+    24:51:android.widget.LinearLayout page(android.app.Activity,java.lang.String):0 -> l
+    52:160:android.widget.LinearLayout page(android.app.Activity,java.lang.String):0:0 -> l
+    0:19:int pdd(android.content.Context):0:0 -> m
+    0:19:int secondary(android.content.Context):0:0 -> n
+    0:43:android.widget.LinearLayout whiteCard(android.content.Context):0:0 -> o
+com.lomoho.quickpick.Ui$$ExternalSyntheticLambda0 -> r:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$bffd3b404d0f6f2ef1eaf59c1fe6433d870400ace3d7c3ea66dcdd735237e0c3$0.$r8$classId -> a
+    android.app.Dialog com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$bffd3b404d0f6f2ef1eaf59c1fe6433d870400ace3d7c3ea66dcdd735237e0c3$0.f$0 -> b
+    0:7:void com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$bffd3b404d0f6f2ef1eaf59c1fe6433d870400ace3d7c3ea66dcdd735237e0c3$0.<init>(android.app.Dialog):0:0 -> <init>
+    0:7:void com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$bffd3b404d0f6f2ef1eaf59c1fe6433d870400ace3d7c3ea66dcdd735237e0c3$0.$r8$init$synthetic(android.app.Dialog,int):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    8:11:void com.lomoho.quickpick.Ui.lambda$confirm$1(android.app.Dialog,android.view.View):0:0 -> onClick
+    8:11:void com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$bffd3b404d0f6f2ef1eaf59c1fe6433d870400ace3d7c3ea66dcdd735237e0c3$0.onClick$bridge(android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+    12:15:void com.lomoho.quickpick.Ui.lambda$singleChoice$4(android.app.Dialog,android.view.View):0:0 -> onClick
+    12:15:void com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$bffd3b404d0f6f2ef1eaf59c1fe6433d870400ace3d7c3ea66dcdd735237e0c3$0.onClick$bridge(android.view.View):0 -> onClick
+com.lomoho.quickpick.Ui$$ExternalSyntheticLambda1 -> s:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Dialog com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$e2cd0693631b1c11fb0afb11cecb96f48b19575ac7dc6531bf2d44490c7cac27$0.f$0 -> a
+    java.util.function.IntConsumer com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$e2cd0693631b1c11fb0afb11cecb96f48b19575ac7dc6531bf2d44490c7cac27$0.f$1 -> b
+    int com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$e2cd0693631b1c11fb0afb11cecb96f48b19575ac7dc6531bf2d44490c7cac27$0.f$2 -> c
+    0:9:void com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$e2cd0693631b1c11fb0afb11cecb96f48b19575ac7dc6531bf2d44490c7cac27$0.<init>(android.app.Dialog,java.util.function.IntConsumer,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/app/Dialog;Lq;I)V"}
+    0:12:void com.lomoho.quickpick.Ui.lambda$singleChoice$3(android.app.Dialog,java.util.function.IntConsumer,int,android.view.View):0:0 -> onClick
+    0:12:void com.lomoho.quickpick.Ui$$InternalSyntheticLambda$2$e2cd0693631b1c11fb0afb11cecb96f48b19575ac7dc6531bf2d44490c7cac27$0.onClick(android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}

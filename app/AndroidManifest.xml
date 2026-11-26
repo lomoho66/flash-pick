@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lomoho.flashpick"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34" />
+
+    <!-- Android 11+ 包可见性：不声明的话 getLaunchIntentForPackage 对这三个 App 返回 null，
+         「装没装菜鸟」的判定会失灵（原生段会被整段跳过）。仅查询用，不涉及任何权限。 -->
+    <queries>
+        <package android:name="com.xunmeng.pinduoduo" />
+        <package android:name="com.cainiao.wireless" />
+        <package android:name="com.taobao.taobao" />
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <activity
+            android:name="com.lomoho.quickpick.MainActivity"
+            android:exported="true" />
+
+        <!-- 桌面图标随外观自动切换：经典位 = ParcelFlash cream、午夜位 = night，Prefs.applyIconForTheme 按明暗启停别名 -->
+        <activity-alias
+            android:name=".IconClassic"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:targetActivity="com.lomoho.quickpick.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity-alias>
+        <activity-alias
+            android:name=".IconMidnight"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_midnight"
+            android:roundIcon="@mipmap/ic_midnight"
+            android:label="@string/app_name"
+            android:targetActivity="com.lomoho.quickpick.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity-alias>
+
+        <!-- 子页（不对外导出） -->
+        <activity
+            android:name="com.lomoho.quickpick.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.lomoho.quickpick.AboutActivity"
+            android:exported="false" />
+
+        <!-- 透明跳板：小组件点击后经它打开拼多多对应页面，随即自毁；半透明主题是为了能触发点按震动（系统触感反馈，免权限） -->
+        <activity
+            android:name="com.lomoho.quickpick.JumpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 小组件：四个 1×1 固定入口 + 一个 2×2 双入口 -->
+        <receiver
+            android:name="com.lomoho.quickpick.WidgetPddPick"
+            android:exported="true"
+            android:label="@string/widget_pdd_pick_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_pdd_pick" />
+        </receiver>
+
+        <receiver
+            android:name="com.lomoho.quickpick.WidgetPddCode"
+            android:exported="true"
+            android:label="@string/widget_pdd_code_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_pdd_code" />
+        </receiver>
+
+        <receiver
+            android:name="com.lomoho.quickpick.WidgetCnPick"
+            android:exported="true"
+            android:label="@string/widget_cn_pick_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_cn_pick" />
+        </receiver>
+
+        <receiver
+            android:name="com.lomoho.quickpick.WidgetCnCode"
+            android:exported="true"
+            android:label="@string/widget_cn_code_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_cn_code" />
+        </receiver>
+
+        <receiver
+            android:name="com.lomoho.quickpick.WidgetDuo"
+            android:exported="true"
+            android:label="@string/widget_duo_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_duo" />
+        </receiver>
+
+        <!-- 长按添加小组件的成功回调（桌面确认钉住后系统回发） -->
+        <receiver
+            android:name="com.lomoho.quickpick.PinCallbackReceiver"
+            android:exported="true" />
+    </application>
+</manifest>

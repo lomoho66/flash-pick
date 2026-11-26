@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1×1 固定入口：伪装 app 图标（圆角方块靠顶部对齐图标行）+ 组件内自带名称（ColorOS 不给 1×1 画系统标题，备用方案）
+     外框 60dp 与 ColorOS 桌面图标等大；图内字形按 App 图标同比例：图 62×42 居中，字形约 35dp -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_small_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="3dp">
+
+    <FrameLayout
+        android:id="@+id/widget_single_card"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/widget_tile_light">
+
+        <ImageView
+            android:id="@+id/widget_icon"
+            android:layout_width="62dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu_pdd_pickup" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/widget_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:singleLine="true"
+        android:text="多多取件"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+</LinearLayout>

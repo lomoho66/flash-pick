@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Telegram 纸飞机（深色与酷安/GitHub 同金 #EFC65C） -->
+    <path
+        android:pathData="M21.9,4.1 L2.6,11.7 L9.6,14.1 L12.1,20.9 L16,16.4 L20.3,20 Z"
+        android:fillColor="#EFC65C"/>
+    <path
+        android:pathData="M9.6,14.1 L20.8,4.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.1"/>
+</vector>
