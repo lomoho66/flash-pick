@@ -1,12 +1,12 @@
-[![闪取 FlashPick](https://socialify.git.ci/lomoho66/flashpick/image?description=1&font=Inter&language=1&name=1&owner=1&stargazers=1&theme=Auto)](https://github.com/lomoho66/flashpick)
+[![闪取 FlashPick](https://socialify.git.ci/lomoho66/flash-pick/image?description=1&font=Inter&language=1&name=1&owner=1&stargazers=1&theme=Auto)](https://github.com/lomoho66/flash-pick)
 
 # 闪取 FlashPick
 
 > 驿站取件，一触即达 —— 不联网、极简轻量化的安卓小工具
 
-[![Stars](https://img.shields.io/github/stars/lomoho66/flashpick?style=flat&logo=github&label=Stars)](https://github.com/lomoho66/flashpick/stargazers)
-[![Release](https://img.shields.io/github/v/release/lomoho66/flashpick?label=Release)](https://github.com/lomoho66/flashpick/releases)
-[![License](https://img.shields.io/github/license/lomoho66/flashpick?label=License)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/lomoho66/flash-pick?style=flat&logo=github&label=Stars)](https://github.com/lomoho66/flash-pick/stargazers)
+[![Release](https://img.shields.io/github/v/release/lomoho66/flash-pick?label=Release)](https://github.com/lomoho66/flash-pick/releases)
+[![License](https://img.shields.io/github/license/lomoho66/flash-pick?label=License)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/lom0ho)
 
 ![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)
@@ -142,10 +142,10 @@ export ANDROID_HOME=/path/to/android-sdk
 
 ## Star History
 
-<a href="https://star-history.com/#lomoho66/flashpick&Date">
+<a href="https://star-history.com/#lomoho66/flash-pick&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=lomoho66/flashpick&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=lomoho66/flashpick&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=lomoho66/flashpick&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=lomoho66/flash-pick&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=lomoho66/flash-pick&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=lomoho66/flash-pick&type=Date" />
   </picture>
 </a>
