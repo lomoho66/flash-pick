@@ -5,7 +5,7 @@
 > 驿站取件，一触即达 —— 不联网、极简轻量化的安卓小工具
 
 [![Stars](https://img.shields.io/github/stars/lomoho66/flash-pick?style=flat&logo=github&label=Stars)](https://github.com/lomoho66/flash-pick/stargazers)
-[![Release](https://img.shields.io/github/v/release/lomoho66/flash-pick?label=Release)](https://github.com/lomoho66/flash-pick/releases)
+[![Release](https://img.shields.io/github/v/release/lomoho66/flash-pick?label=Release&style=flat)](https://github.com/lomoho66/flash-pick/releases)
 [![License](https://img.shields.io/github/license/lomoho66/flash-pick?label=License)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/lom0ho)
 
