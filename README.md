@@ -10,7 +10,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/lom0ho)
 
 ![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)
-![Size](https://img.shields.io/badge/size-~98_KB-lightgrey.svg)
+![Size](https://img.shields.io/badge/size-%7E98_KB-lightgrey)
 
 <p>
 <img src="docs/images/slide-01.png" width="270">
